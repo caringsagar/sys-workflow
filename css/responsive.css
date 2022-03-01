@@ -30,10 +30,10 @@
   .navbar .nav-links .nav-item {
     padding: 10px 0px;
   }
-  .navbar .nav-links .nav-item:hover {
+  /* .navbar .nav-links .nav-item:hover {
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
-  }
+  } */
   .navbar .nav-links .nav-item a {
     color: var(--color-secondary);
     font-family: "Roboto Mono", monospace;

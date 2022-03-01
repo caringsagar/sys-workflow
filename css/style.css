@@ -49,6 +49,13 @@ html {
   text-decoration: underline;
 }
 
+/* marque  */
+marquee {
+  color: #fff;
+  height: calc(125px - 99px);
+  padding-top: 4.2px;
+}
+
 /* navbar styling */
 .navbar {
   height: 55px;
@@ -95,8 +102,4 @@ html {
   right: 5%;
   top: 20%;
   cursor: pointer;
-}
-
-#check:checked .bar-icon i {
-  contentp: "aman";
 }
