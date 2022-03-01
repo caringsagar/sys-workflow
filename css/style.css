@@ -50,9 +50,8 @@ html {
 }
 
 /* marque  */
-marquee {
+marquee p {
   color: #fff;
-  height: calc(125px - 99px);
   padding-top: 4.2px;
 }
 
