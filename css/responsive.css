@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
   .header-container .brand {
     height: 30px;
-    width: 300px;
+    width: 200px;
     top: 35%;
   }
   .header-container .brand .brand-name {
@@ -10,12 +10,20 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+  .header-container .brand {
+    height: 30px;
+    width: 200px;
+    top: 35%;
+  }
+  .header-container .brand .brand-name {
+    font-size: 14px;
+  }
+  marquee {
+    width: 80%;
+  }
+
   .navbar .nav-links {
     display: block;
     position: fixed;
