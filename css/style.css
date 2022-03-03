@@ -124,6 +124,23 @@ html {
   margin-top: -29px;
   margin-bottom: 20px;
 }
+.about .about-heading::before{
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  margin-top: 12px;
+  margin-left:-50px;
+}
+.about .about-heading::after{
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  margin-top: 12px;
+}
 .about .info .info-content {
   padding: 20px 0;
 }
@@ -137,7 +154,37 @@ html {
   margin-top: 3px;
   text-align: justify;
 }
-
+.more-about-us{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 0;
+  background-color: var(--color-primary);
+  flex-wrap: wrap;
+}
+.more-about-us .more-about{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.more-about-us .more-about h5{
+  margin-top: 7px ;
+}
+.more-about-us .more-about img{
+  font-size: 75px;
+}
+.more-about-us .more-about p{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 500px) {
+  .more-about-us .more-about{
+    width: 40%;
+    margin: 20px 0;
+  }
+}
 .about .high-info img {
   max-width: 100%;
   background-color: #ff5500;
@@ -160,6 +207,23 @@ html {
 .our-works .our-works-heading {
   text-align: center;
   margin-bottom: 30px;
+}
+.our-works .our-works-heading::before{
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  margin-top: 12px;
+  margin-left:-50px;
+}
+.our-works .our-works-heading::after{
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  margin-top: 12px;
 }
 
 /* card style css by(aman) */
