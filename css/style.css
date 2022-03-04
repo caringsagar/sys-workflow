@@ -27,9 +27,11 @@ html {
   align-items: center;
   padding-left: 20px;
 }
+
 .header-container .query p {
   font-weight: 500;
 }
+
 .header-container .query span {
   margin: 0px 10px;
 }
@@ -68,12 +70,13 @@ html {
 .navbar .nav-links .nav-item {
   padding: 0px 20px;
 }
-.navbar .nav-links .nav-item:hover {
-}
+
+.navbar .nav-links .nav-item:hover {}
 
 .navbar .nav-links .nav-item a {
   color: var(--color-white);
 }
+
 .navbar .nav-links .nav-item a:hover {
   color: var(--color-primary);
 }
@@ -88,6 +91,7 @@ html {
   position: relative;
   display: none;
 }
+
 .bar-icon i {
   font-size: 30px;
   color: #fff;
@@ -104,8 +108,9 @@ html {
   z-index: -9999;
   width: 100%;
 }
-.hero-section .hero-image {
-}
+
+.hero-section .hero-image {}
+
 .hero-section .hero-image img {
   width: 100vw;
   margin-top: -10px;
@@ -118,22 +123,25 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 .about .about-heading {
   text-align: center;
   text-transform: uppercase;
   margin-top: -29px;
   margin-bottom: 20px;
 }
-.about .about-heading::before{
+
+.about .about-heading::before {
   content: '';
   height: 2px;
   width: 50px;
   background-color: black;
   position: absolute;
   margin-top: 12px;
-  margin-left:-50px;
+  margin-left: -50px;
 }
-.about .about-heading::after{
+
+.about .about-heading::after {
   content: '';
   height: 2px;
   width: 50px;
@@ -141,9 +149,11 @@ html {
   position: absolute;
   margin-top: 12px;
 }
+
 .about .info .info-content {
   padding: 20px 0;
 }
+
 .about .info .info-content h3 {
   font-family: "Roboto Mono", monospace;
   margin-left: 20px;
@@ -154,37 +164,44 @@ html {
   margin-top: 3px;
   text-align: justify;
 }
-.more-about-us{
+
+.more-about-us {
   display: flex;
   justify-content: space-evenly;
   padding: 25px 0;
   background-color: var(--color-primary);
   flex-wrap: wrap;
 }
-.more-about-us .more-about{
+
+.more-about-us .more-about {
   width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.more-about-us .more-about h5{
-  margin-top: 7px ;
+
+.more-about-us .more-about h5 {
+  margin-top: 7px;
 }
-.more-about-us .more-about img{
+
+.more-about-us .more-about img {
   font-size: 75px;
 }
-.more-about-us .more-about p{
+
+.more-about-us .more-about p {
   color: #fff;
   margin-top: 10px;
   font-size: 0.8rem;
 }
+
 @media only screen and (max-width: 500px) {
-  .more-about-us .more-about{
+  .more-about-us .more-about {
     width: 40%;
     margin: 20px 0;
   }
 }
+
 .about .high-info img {
   max-width: 100%;
   background-color: #ff5500;
@@ -198,6 +215,7 @@ html {
   padding: 20px;
   background-color: var(--color-bluish);
 }
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -208,16 +226,18 @@ html {
   text-align: center;
   margin-bottom: 30px;
 }
-.our-works .our-works-heading::before{
+
+.our-works .our-works-heading::before {
   content: '';
   height: 2px;
   width: 50px;
   background-color: black;
   position: absolute;
   margin-top: 12px;
-  margin-left:-50px;
+  margin-left: -50px;
 }
-.our-works .our-works-heading::after{
+
+.our-works .our-works-heading::after {
   content: '';
   height: 2px;
   width: 50px;
@@ -243,10 +263,12 @@ html {
   position: relative;
   /* background-color: ; */
 }
+
 .card-cover {
   position: absolute;
   transition: all 0.75s;
 }
+
 .card:hover .card-cover {
   mix-blend-mode: hue;
   animation-name: animate;
@@ -262,10 +284,11 @@ html {
     width: 0;
     height: 0;
   }
+
   to {
     width: 100%;
     height: 100%;
-    border-radius: 0;
+    border-radius: 5px;
   }
 }
 
@@ -277,37 +300,44 @@ html {
   top: -15%;
   transition: 0.5s all ease;
 }
+
 .card-img-container img {
   width: inherit;
   height: inherit;
 }
+
 .text-item {
   /* border: 2px solid green; */
   margin-top: 160px;
   width: 100%;
   height: 264px;
 }
+
 .text-item h4 {
   font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 600;
   font-family: "Roboto Mono", monospace;
 }
+
 .text-item-info {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .text-item-info span {
   font-size: 0.8rem;
   font-weight: 500;
 }
+
 .text-item p {
   padding-top: 10px;
   letter-spacing: 1px;
   font-size: 0.8rem;
   text-align: justify;
 }
+
 .card-button {
   position: absolute;
   top: 97%;
@@ -315,6 +345,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .card-button button {
   background-color: tomato;
   width: 120px;
@@ -324,21 +355,25 @@ html {
   outline: none;
   border-radius: 5px;
 }
+
 .card-button button a {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1px;
 }
+
 /* hover effect started from here */
 .card:hover {
   box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 8%);
   transition: 0.5s all ease;
 }
+
 .card:hover .card-img-container {
   transition: 0.5s all ease-in-out;
   position: absolute;
   top: -20%;
 }
+
 .card-button button:hover {
   background-color: rgb(125, 148, 253);
   transition: 0.5s all ease;
@@ -351,9 +386,49 @@ html {
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .card {
     margin: 30px 0;
     width: 90%;
   }
+}
+
+footer {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+footer .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+  width: 60%;
+  padding: 30px 0;
+}
+
+footer .footer-icons i {
+  font-size: 15px;
+  background: #FF5500;
+  background: -webkit-linear-gradient(to right, #FF5500 1%, #828282 100%);
+  background: -moz-linear-gradient(to right, #FF5500 1%, #828282 100%);
+  background: linear-gradient(to right, #FF5500 1%, #828282 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+footer .footer-text {
+  color: #fff;
+
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
